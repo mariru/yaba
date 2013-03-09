@@ -89,14 +89,14 @@
 <script> 
 $(document).ready(function(){
   $("#next").click(function(){
-   // Wix.reportHeightChange(700);
+    Wix.reportHeightChange(2000);
     $("#slideContainer").slideDown("slow");
     $(".one").show();
 
   });
   $("#one1").click(function(){
-    $(".subleft").hide();
-    $(".subright").hide();
+   // $(".subleft").hide();
+    //$(".subright").hide();
     $(".two").show();
     $(".one").hide();
   });
@@ -114,7 +114,7 @@ $(document).ready(function(){
 </br>
 </br>
 
-<div class="zero" id="something1">
+<div class="zero" id="something1" style="margin:auto; background-image:url(room2.png);background-size:100%;height:250px;width:700px;">
 <div class="top">
 
 
