@@ -15,7 +15,7 @@
     <link href="js/google-code-prettify/prettify.css" rel="stylesheet">
    
  <link rel="stylesheet" type="text/css" href="main.css">
-
+<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.16.4/js/Wix.js"></script> 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
 </script>
 
@@ -287,13 +287,13 @@ $(document).ready(function(){
      
         </tr>
         <td>
-       <select placeholder= month style="width:40px">
+       <select placeholder= month style="width:45px">
        </select>
-        <select placeholder= year style="width:40px">
+        <select placeholder= year style="width:45px">
         </select>
         
        
-        <input type=text style="width:80px" > 
+        <input type=text style="width:60px" > 
        
           
           </td>

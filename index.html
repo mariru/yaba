@@ -89,8 +89,10 @@
 <script> 
 $(document).ready(function(){
   $("#next").click(function(){
+    Wix.reportHeightChange(700);
     $("#slideContainer").slideDown("slow");
     $(".one").show();
+
   });
   $("#one1").click(function(){
     $(".two").show();
