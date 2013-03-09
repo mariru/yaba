@@ -5,14 +5,14 @@ body
 }
 .top
 {
-height:80%;
+height:75%;
 width:100%;
 }
 .bottom
 {
 background-color:#f1ede9;
 opacity:0.8;
-height:20%;
+height:25%;
 
 }
 
@@ -75,7 +75,22 @@ background-color:#fffbf6;
 margin:auto;
 display:none;
 }
-
+#something1
+{
+margin:auto;
+background-image:url(room2.png);
+background-size:100%;
+height:250px;
+width:700px;
+}
+#something2
+{
+margin:auto;
+background-image:url(room3.png);
+background-size:100%;
+height:250px;
+width:700px;
+}
 #something
 {
 margin:auto;
@@ -125,7 +140,7 @@ width:700px;
             position: relative;
             text-align: left;
             width: 30%;
-            height:400px;
+            height:370px;
             background-image:url(book.jpg);
             background-size:100%;
         }
