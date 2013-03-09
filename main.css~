@@ -1,0 +1,131 @@
+body
+{
+
+
+}
+.top
+{
+height:80%;
+width:100%;
+}
+.bottom
+{
+background-color:#f1ede9;
+opacity:0.8;
+height:20%;
+
+}
+
+.right
+{
+
+float:right;
+width:30%;
+height:100%;
+background-color:#f6f2ef;
+opacity:0.9;
+
+}
+
+#doubleRoom
+{
+padding-top:15px;
+padding-bottom:15px;
+padding-left:15px;
+margin-top:0;
+background-color:#e8e4e0;
+opacity:0.9;
+color:#0e767c;
+font-size:150%;
+}
+
+.one
+{
+display:none;
+}
+
+.two
+{
+display:none;
+}
+
+.three
+{
+text-align:center;
+display:none;
+text-color:#acaaa7;
+padding-top:7%;
+}
+
+#datePicker
+{
+margin-top:0px;
+}
+#roomDes
+{
+font-size:80%;
+padding:6%;
+}
+
+#slideContainer
+{
+height:300px;
+width:700px;
+background-color:#fffbf6;
+margin:auto;
+display:none;
+}
+
+#something
+{
+margin:auto;
+background-image:url(room1-resized.jpg);
+background-size:100%;
+height:250px;
+width:700px;
+}
+
+.button1 {
+	-moz-box-shadow: 0px 1px 0px 0px #d4d4d4;
+	-webkit-box-shadow: 0px 1px 0px 0px #d4d4d4;
+	box-shadow: 0px 1px 0px 0px #d4d4d4;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0e777c), color-stop(1, #349396) );
+	background:-moz-linear-gradient( center top, #0e777c 5%, #349396 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e777c', endColorstr='#349396');
+	background-color:#0e777c;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #dedade;
+	display:inline-block;
+	color:#fffaff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:normal;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #dbd4db;
+}.button1:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #349396), color-stop(1, #0e777c) );
+	background:-moz-linear-gradient( center top, #349396 5%, #0e777c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#349396', endColorstr='#0e777c');
+	background-color:#349396;
+}.button1:active {
+	position:relative;
+	top:1px;
+}
+	.subleft {
+            position: relative;
+            width: 70%;
+            height:100%;
+        }
+
+        .subright {
+            float: right;
+            position: relative;
+            text-align: left;
+            width: 30%;
+            height:400px;
+            background-image:url(book.jpg);
+            background-size:100%;
+        }
